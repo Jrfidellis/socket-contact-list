@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Lista de contatos - Socket</title>
+</head>
+<body>
+    <div class="add-contact">
+        <h2>Adicionar contato:</h2>
+        <label for="input-nome">Nome:</label>
+        <input type="text" name="nome" id="input-nome">
+        
+        <label for="input-email">Email:</label>
+        <input type="email" name="email" id="input-email">
+        
+        <label for="input-tel">Número:</label>
+        <input type="tel" name="tel" id="input-tel">
+
+        <button id="add-button" class="add-button">Adicionar</button>
+    </div>
+
+    <div class="contacts">
+        <h2>Lista de contatos:</h1>
+        <ul id="contact-list"></ul>
+    </div>
+</body>
+</html>

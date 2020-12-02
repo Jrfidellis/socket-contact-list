@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 50px;
+    background: #91C4F2;
+    display: flex;
+}
+
+h2, h3 {
+    margin-top: 0;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    min-height: 100px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+code {
+    word-break: break-all;
+    font-size: 12px;
+}
+
+span {
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    height: 40px;
+}
+
+.add-contact {
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: 400px;
+}
+
+.contacts {
+    padding: 30px;
+}
+
+#contact-list {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.add-contact input {
+    margin-bottom: 30px;
+}
+
+.add-button {
+    background-color: green;
+}
+
+.delete-button {
+    background-color: indianred;
+}
